@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+.dessert-h1 {
+  padding-bottom: 15px;
+  margin-left: -10px;
+}
+
+.item-box {
+  position: relative;
+}
+.item-box .item-btn {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 170px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: white;
+}
+.item-box .item-btn .hidden {
+  display: none;
+}
+.item-box .counter-mode {
+  color: white;
+  background-color: hsl(14, 86%, 42%);
+  border: none;
+  justify-content: space-between;
+}
+.item-box .counter-mode #counter-decrease, .item-box .counter-mode #counter-increase {
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  z-index: 10;
+}
+.item-box .counter-mode .hidden {
+  display: none;
+}
+.item-box .item-box-img {
+  border-radius: 10px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.item-box span {
+  display: block;
+}
+.item-box span.category {
+  text-transform: capitalize;
+  color: #8d8d8d;
+}
+.item-box span.name {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.item-box span.price {
+  color: #c73a0f;
+  font-weight: bold;
+}
+
+.cart-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f7ee;
+  padding: 21px;
+  border-radius: 15px;
+}
+.cart-box h1 {
+  color: hsl(14, 86%, 42%);
+  font-size: 30px;
+  text-align: left;
+  width: 100%;
+}
+.cart-box h1 span {
+  color: hsl(14, 86%, 42%);
+  font-size: 30px;
+  text-align: left;
+  width: 100%;
+}
+.cart-box img {
+  width: 40%;
+  margin: 20px 0;
+}
+.cart-box .word {
+  font-size: 10px;
+}
+
+.border-img {
+  border: 3px solid hsl(14, 86%, 42%);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.selected-items-box {
+  width: 1;
+}
+.selected-items-box .selected-item {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(204, 199, 199);
+  padding-bottom: 15px;
+}
+.selected-items-box .selected-item .info {
+  text-align: left;
+}
+.selected-items-box .selected-item .info .name {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.selected-items-box .selected-item .info .item-number {
+  color: hsl(14, 86%, 42%);
+  padding-right: 20px;
+}
+.selected-items-box .selected-item .info .price {
+  color: #817b7b;
+  padding-right: 5px;
+  text-align: center;
+  width: 10px;
+}
+.selected-items-box .selected-item .info .price-all {
+  color: rgb(151, 95, 95);
+}
+.selected-items-box .selected-item .x-icon {
+  border: 1px solid;
+  border-radius: 50%;
+  color: hsl(14, 86%, 42%);
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
+
+.order-confirm span {
+  width: 100%;
+}
+.order-confirm .total-number {
+  font-size: 25px;
+}
+.order-confirm .carbon-neutrel {
+  padding: 10px 0;
+  font-size: 15px;
+  text-align: center;
+  background: #fdfced;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+.order-confirm .confirm-btn {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  background-color: hsl(14, 86%, 42%);
+  border-radius: 30px;
+}
+
+.order-confirmation {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.confirm-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 100%;
+  min-height: 70%;
+  bottom: 0;
+  left: 0;
+}
+.confirm-box .confirm-icon {
+  margin: 10px 0;
+}
+.confirm-box h3 {
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.confirm-box .we-hope {
+  font-size: 15px;
+  color: #a0a0a0;
+  padding-bottom: 20px;
+  display: block;
+}
+.confirm-box .order-total {
+  padding: 10px;
+  background: #d6d3d3;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.confirm-box .order-total span:last-child {
+  font-weight: bold;
+  font-size: 30px;
+}
+.confirm-box .start-new-order {
+  border: none;
+  width: 100%;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 25px;
+  background-color: hsl(14, 86%, 42%);
+}
+/*# sourceMappingURL=all.css.map */
